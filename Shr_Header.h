@@ -1,7 +1,3 @@
-//
-// Created by julia on 28.07.2021.
-//
-
 #ifndef SHAREDMEMORY_EXAMPLE_SHR_HEADER_H
 #define SHAREDMEMORY_EXAMPLE_SHR_HEADER_H
 
