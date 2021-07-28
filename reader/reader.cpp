@@ -24,11 +24,12 @@ int main(int argc, char* argv[]){
             perror("mmap");
             return -1;
         }
-        std::cout << "Trying to read." << argv[2] << std::endl;
+        std::cout << "Trying to read." << std::endl;
         std::cout << "Got from shared memory: " << addr << std::endl;
     }
     else if (!strcmp(argv[1], "close")){
         shm_unlink(SHR_OBJECT_NAME);
+        std::cout << "Shared Memory closed!" << std::endl;
     }
     else {
         Usage();
