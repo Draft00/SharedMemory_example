@@ -6,7 +6,7 @@
 //usage: write ['text']
 
 void Usage() {
-    std::cout << "Usage: <write ['text'] (max len 100)" << std::endl;
+    std::cout << "Usage: <write ['text']> (max len 100)" << std::endl;
 }
 
 int main(int argc, char* argv[]) {

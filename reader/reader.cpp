@@ -2,7 +2,7 @@
 #include "../Shr_Header.h"
 
 void Usage() {
-    std::cout << "Usage: <read | close" << std::endl;
+    std::cout << "Usage: <read | close>" << std::endl;
 }
 
 int main(int argc, char* argv[]){
