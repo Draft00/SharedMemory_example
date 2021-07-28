@@ -26,6 +26,9 @@ int main(int argc, char* argv[]){
         }
         std::cout << "Trying to read." << std::endl;
         std::cout << "Got from shared memory: " << addr << std::endl;
+
+        munmap(addr, SHR_MAX_LEN);
+        close(shm);
     }
     else if (!strcmp(argv[1], "close")){
         shm_unlink(SHR_OBJECT_NAME);
