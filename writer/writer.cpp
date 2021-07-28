@@ -3,7 +3,7 @@
 //
 #include "../Shr_Header.h"
 
-//usage: create|write ['text']
+//usage: write ['text']
 
 void Usage() {
     std::cout << "Usage: <write ['text'] (max len 100)" << std::endl;
