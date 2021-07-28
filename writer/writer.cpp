@@ -1,9 +1,4 @@
-//
-// Created by julia on 28.07.2021.
-//
 #include "../Shr_Header.h"
-
-//usage: write ['text']
 
 void Usage() {
     std::cout << "Usage: <write ['text']> (max len 100)" << std::endl;
